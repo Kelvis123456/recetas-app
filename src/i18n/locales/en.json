@@ -1,0 +1,168 @@
+{
+  "nav": {
+    "home": "Home",
+    "discover": "Discover",
+    "saved": "Saved",
+    "mealPlan": "Meal Plan",
+    "groceryList": "Grocery List",
+    "addRecipe": "Add Recipe",
+    "settings": "Settings"
+  },
+  "home": {
+    "greeting": "Good morning, Chef",
+    "subtitle": "What are we cooking today?",
+    "featured": "Featured Recipe",
+    "trendingTitle": "Trending This Week",
+    "seeAll": "See all →",
+    "categories": "Categories",
+    "cookNow": "Cook Now",
+    "stats": {
+      "title": "Your Kitchen Stats",
+      "saved": "Saved",
+      "cooked": "Cooked",
+      "thisWeek": "This week"
+    }
+  },
+  "recipe": {
+    "prepTime": "Prep",
+    "temp": "Temp",
+    "serves": "Serves",
+    "calories": "Calories",
+    "ingredients": "Ingredients",
+    "steps": "Steps",
+    "nutrition": "Nutrition",
+    "startCooking": "Start Cooking",
+    "addToGrocery": "Add to Grocery List",
+    "addToMealPlan": "Add to Meal Plan",
+    "by": "by",
+    "reviews": "reviews",
+    "servings": "servings",
+    "difficulty": {
+      "Easy": "Easy",
+      "Medium": "Medium",
+      "Hard": "Hard"
+    }
+  },
+  "search": {
+    "title": "Discover Recipes",
+    "placeholder": "Search pasta, salads, soups...",
+    "trending": "Trending Searches",
+    "popular": "Popular Categories",
+    "filters": {
+      "all": "All",
+      "vegan": "Vegan",
+      "quick": "Quick",
+      "protein": "High Protein",
+      "lowCal": "<500 cal"
+    }
+  },
+  "grocery": {
+    "title": "Grocery List",
+    "subtitle": "Ingredients to buy",
+    "empty": "Your list is empty",
+    "emptyDesc": "Add ingredients from a recipe or type them in",
+    "add": "Add item",
+    "addPlaceholder": "e.g. 2 cups flour",
+    "clearChecked": "Clear checked",
+    "clearAll": "Clear all",
+    "itemsLeft": "items left",
+    "addedFrom": "From",
+    "confirm": "Are you sure you want to clear all items?"
+  },
+  "mealPlan": {
+    "title": "Meal Plan",
+    "subtitle": "Plan your week",
+    "addSlot": "Add recipe",
+    "pickRecipe": "Pick a recipe",
+    "slots": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner"
+    },
+    "days": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "totalCal": "Total calories",
+    "totalTime": "Total time",
+    "remove": "Remove"
+  },
+  "addRecipe": {
+    "title": "Add New Recipe",
+    "subtitle": "Share your creation with the world",
+    "basicInfo": "Basic Information",
+    "titleLabel": "Recipe title (English)",
+    "titleEs": "Recipe title (Spanish)",
+    "titlePlaceholder": "e.g. Grandma's Lasagna",
+    "descLabel": "Description (English)",
+    "descEs": "Description (Spanish)",
+    "descPlaceholder": "What makes this recipe special...",
+    "category": "Category",
+    "difficulty": "Difficulty",
+    "prepTime": "Prep time (minutes)",
+    "servings": "Servings",
+    "calories": "Calories per serving",
+    "imageUrl": "Image URL",
+    "imageUrlPlaceholder": "https://...",
+    "ingredients": "Ingredients",
+    "addIngredient": "Add ingredient",
+    "ingredientName": "Name (EN)",
+    "ingredientNameEs": "Name (ES)",
+    "ingredientAmount": "Amount",
+    "ingredientEmoji": "Emoji",
+    "steps": "Steps",
+    "addStep": "Add step",
+    "stepInstruction": "Instruction (EN)",
+    "stepInstructionEs": "Instruction (ES)",
+    "save": "Save Recipe",
+    "saving": "Saving...",
+    "saved": "Recipe saved!",
+    "cancel": "Cancel",
+    "required": "Required field",
+    "preview": "Preview",
+    "author": "Author name",
+    "authorPlaceholder": "Your name"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language / Idioma",
+    "langSubtitle": "Choose your preferred language",
+    "appearance": "Appearance",
+    "darkMode": "Dark Mode",
+    "darkModeDesc": "Switch to dark theme for night cooking sessions",
+    "systemTheme": "Follow System Theme",
+    "systemThemeDesc": "Automatically matches your OS preference",
+    "preferences": "Preferences",
+    "notifications": "Notifications",
+    "notificationsDesc": "Get new recipe alerts",
+    "dietary": "Dietary",
+    "dietaryDesc": "Vegetarian, gluten-free...",
+    "privacy": "Privacy",
+    "privacyDesc": "Manage your data",
+    "help": "Help & Support",
+    "helpDesc": "FAQs, contact us",
+    "profile": {
+      "title": "Your Profile",
+      "plan": "Free Plan · Upgrade →",
+      "saved": "Saved",
+      "cooked": "Cooked",
+      "favorites": "Favorites"
+    }
+  },
+  "saved": {
+    "title": "Saved Recipes",
+    "empty": "No saved recipes yet",
+    "emptyDesc": "Heart a recipe to save it here"
+  },
+  "common": {
+    "active": "Active",
+    "min": "min",
+    "cal": "cal",
+    "srv": "srv"
+  }
+}

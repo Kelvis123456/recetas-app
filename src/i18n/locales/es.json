@@ -1,0 +1,168 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "discover": "Descubrir",
+    "saved": "Guardadas",
+    "mealPlan": "Plan de Comidas",
+    "groceryList": "Lista de Compras",
+    "addRecipe": "Añadir Receta",
+    "settings": "Ajustes"
+  },
+  "home": {
+    "greeting": "Buenos días, Chef",
+    "subtitle": "¿Qué cocinamos hoy?",
+    "featured": "Receta Destacada",
+    "trendingTitle": "Tendencias esta semana",
+    "seeAll": "Ver todas →",
+    "categories": "Categorías",
+    "cookNow": "Cocinar ahora",
+    "stats": {
+      "title": "Tu cocina en números",
+      "saved": "Guardadas",
+      "cooked": "Cocinadas",
+      "thisWeek": "Esta semana"
+    }
+  },
+  "recipe": {
+    "prepTime": "Prep",
+    "temp": "Temp",
+    "serves": "Porciones",
+    "calories": "Calorías",
+    "ingredients": "Ingredientes",
+    "steps": "Pasos",
+    "nutrition": "Nutrición",
+    "startCooking": "Comenzar a cocinar",
+    "addToGrocery": "Añadir a la lista",
+    "addToMealPlan": "Añadir al plan",
+    "by": "por",
+    "reviews": "reseñas",
+    "servings": "porciones",
+    "difficulty": {
+      "Easy": "Fácil",
+      "Medium": "Medio",
+      "Hard": "Difícil"
+    }
+  },
+  "search": {
+    "title": "Descubrir Recetas",
+    "placeholder": "Buscar pasta, ensaladas, sopas...",
+    "trending": "Búsquedas Populares",
+    "popular": "Categorías Populares",
+    "filters": {
+      "all": "Todos",
+      "vegan": "Vegano",
+      "quick": "Rápido",
+      "protein": "Alto en Proteína",
+      "lowCal": "<500 cal"
+    }
+  },
+  "grocery": {
+    "title": "Lista de Compras",
+    "subtitle": "Ingredientes para comprar",
+    "empty": "Tu lista está vacía",
+    "emptyDesc": "Añade ingredientes desde una receta o escríbelos aquí",
+    "add": "Añadir artículo",
+    "addPlaceholder": "ej. 2 tazas de harina",
+    "clearChecked": "Eliminar marcados",
+    "clearAll": "Limpiar todo",
+    "itemsLeft": "artículos pendientes",
+    "addedFrom": "De",
+    "confirm": "¿Seguro que quieres limpiar toda la lista?"
+  },
+  "mealPlan": {
+    "title": "Plan de Comidas",
+    "subtitle": "Planifica tu semana",
+    "addSlot": "Añadir receta",
+    "pickRecipe": "Elige una receta",
+    "slots": {
+      "breakfast": "Desayuno",
+      "lunch": "Almuerzo",
+      "dinner": "Cena"
+    },
+    "days": {
+      "mon": "Lun",
+      "tue": "Mar",
+      "wed": "Mié",
+      "thu": "Jue",
+      "fri": "Vie",
+      "sat": "Sáb",
+      "sun": "Dom"
+    },
+    "totalCal": "Calorías totales",
+    "totalTime": "Tiempo total",
+    "remove": "Eliminar"
+  },
+  "addRecipe": {
+    "title": "Añadir Receta",
+    "subtitle": "Comparte tu creación",
+    "basicInfo": "Información Básica",
+    "titleLabel": "Nombre de la receta (inglés)",
+    "titleEs": "Nombre de la receta (español)",
+    "titlePlaceholder": "ej. La lasaña de la abuela",
+    "descLabel": "Descripción (inglés)",
+    "descEs": "Descripción (español)",
+    "descPlaceholder": "¿Qué hace especial a esta receta?",
+    "category": "Categoría",
+    "difficulty": "Dificultad",
+    "prepTime": "Tiempo de preparación (minutos)",
+    "servings": "Porciones",
+    "calories": "Calorías por porción",
+    "imageUrl": "URL de imagen",
+    "imageUrlPlaceholder": "https://...",
+    "ingredients": "Ingredientes",
+    "addIngredient": "Añadir ingrediente",
+    "ingredientName": "Nombre (EN)",
+    "ingredientNameEs": "Nombre (ES)",
+    "ingredientAmount": "Cantidad",
+    "ingredientEmoji": "Emoji",
+    "steps": "Pasos",
+    "addStep": "Añadir paso",
+    "stepInstruction": "Instrucción (EN)",
+    "stepInstructionEs": "Instrucción (ES)",
+    "save": "Guardar Receta",
+    "saving": "Guardando...",
+    "saved": "¡Receta guardada!",
+    "cancel": "Cancelar",
+    "required": "Campo obligatorio",
+    "preview": "Vista previa",
+    "author": "Nombre del autor",
+    "authorPlaceholder": "Tu nombre"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "language": "Language / Idioma",
+    "langSubtitle": "Elige tu idioma preferido",
+    "appearance": "Apariencia",
+    "darkMode": "Modo Oscuro",
+    "darkModeDesc": "Cambia al tema oscuro para cocinar de noche",
+    "systemTheme": "Seguir tema del sistema",
+    "systemThemeDesc": "Se adapta automáticamente a tu OS",
+    "preferences": "Preferencias",
+    "notifications": "Notificaciones",
+    "notificationsDesc": "Recibe alertas de nuevas recetas",
+    "dietary": "Dietéticas",
+    "dietaryDesc": "Vegetariano, sin gluten...",
+    "privacy": "Privacidad",
+    "privacyDesc": "Gestiona tus datos",
+    "help": "Ayuda y Soporte",
+    "helpDesc": "FAQ, contáctanos",
+    "profile": {
+      "title": "Tu Perfil",
+      "plan": "Plan Gratis · Mejorar →",
+      "saved": "Guardadas",
+      "cooked": "Cocinadas",
+      "favorites": "Favoritas"
+    }
+  },
+  "saved": {
+    "title": "Recetas Guardadas",
+    "empty": "Aún no hay recetas guardadas",
+    "emptyDesc": "Dale ❤️ a una receta para guardarla aquí"
+  },
+  "common": {
+    "active": "Activo",
+    "min": "min",
+    "cal": "cal",
+    "srv": "prc"
+  }
+}
