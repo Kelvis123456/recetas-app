@@ -59,7 +59,7 @@ export function Sidebar() {
               }`
             }
           >
-            {({ isActive }) => (
+            {() => (
               <>
                 <PlusCircle size={18} />
                 {t('nav.addRecipe')}
