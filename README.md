@@ -1,73 +1,30 @@
-# React + TypeScript + Vite
+# recetas-app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una app web de recetas con una pantalla para descubrir y filtrar, recetas favoritas, un planificador de comidas por día, una lista de compras y un formulario para agregar tus propias recetas. Es solo frontend: no hay servidor ni cuentas, y todo lo que guardas se queda en tu navegador.
 
-Currently, two official plugins are available:
+La hice para practicar un frontend con varias pantallas y un estado que sobrevive a recargar la página, sin montar un backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Stack:** React 19 · TypeScript · Vite · Tailwind CSS 4 · React Router 7 · Zustand · i18next · TanStack Query · Framer Motion
 
-## React Compiler
+## Qué tiene
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Seis recetas de ejemplo con ingredientes, pasos, tiempo, porciones y calorías, en español e inglés (`src/data/recipes.ts`).
+- Pantallas de inicio, descubrir, guardadas, plan de comidas, lista de compras, agregar receta, detalle de receta y ajustes.
+- Cambio de idioma (español e inglés) y de tema claro u oscuro.
+- Favoritos, lista de compras, plan de comidas y recetas propias persistidos en `localStorage` con el middleware `persist` de Zustand.
 
-## Expanding the ESLint configuration
+## Cómo correrlo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+`npm run build` compila con `tsc -b` y empaqueta con Vite, y `npm run lint` corre ESLint.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Lo que no tiene
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- No hay backend. Las recetas de ejemplo están escritas a mano en el código y las que agregas viven solo en tu navegador: si borras los datos del sitio, se pierden.
+- No tiene tests.
+- Las fotos de las recetas se cargan desde Unsplash, así que dependen de ese servicio.
+- Son seis recetas de ejemplo, no un catálogo.
