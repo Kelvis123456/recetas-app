@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from 'react'
+import { useState, useMemo } from 'react'
 import { motion } from 'framer-motion'
 import { Search, SlidersHorizontal, ArrowUpRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
@@ -37,12 +37,12 @@ export function Discover() {
   const [categoryFilter, setCategoryFilter] = useState<string | null>(searchParams.get('category'))
 
   // Sync URL params → state when route changes (e.g. TopBar search, Home category click)
-  useEffect(() => {
-    const q = searchParams.get('q') ?? ''
-    const cat = searchParams.get('category')
-    setQuery(q)
-    setCategoryFilter(cat)
-  }, [searchParams])
+  const [syncedParams, setSyncedParams] = useState(searchParams)
+  if (searchParams !== syncedParams) {
+    setSyncedParams(searchParams)
+    setQuery(searchParams.get('q') ?? '')
+    setCategoryFilter(searchParams.get('category'))
+  }
 
   const updateQuery = (val: string) => {
     setQuery(val)
