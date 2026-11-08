@@ -1,0 +1,4 @@
+[[IgnoredVulns]]
+id = "GHSA-g3hv-75wg-m249"
+ignoreUntil = 2027-01-08
+reason = "minimatch ReDoS, reached only through eslint at dev time. The fix needs a breaking eslint bump; revisit then."
